@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: demo",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--gpu", "0",
+                "--test_epoch", "24"
+            ],
+            "cwd": "${workspaceFolder}/demo"
+        }
+    ]
+}
